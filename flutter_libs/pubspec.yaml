@@ -21,6 +21,11 @@ dev_dependencies:
   # flutter_lints 2.0.3 requires Dart 2.19, but CI still testing down to 2.18
   flutter_lints: '>=2.0.2 <4.0.0'
 
+dependency_overrides:
+  objectbox:
+    path: ../objectbox
+
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
